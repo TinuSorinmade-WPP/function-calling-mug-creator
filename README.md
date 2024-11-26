@@ -25,15 +25,25 @@ This project creates personalized mugs using AI-generated poems through the Azur
 git clone [repository-url]
 ```
 
-2. Install required packages in virtual environment)
+2. Set up a virtual environment:
 
 ```bash
-pip install openai requests
+# Windows
+virtualenv venv
+venv\Scripts\activate
 ```
 
-3. Set up environment variables (in your command prompt)
+3. Install required packages:
 
 ```bash
+# Using requirements.txt
+pip install -r requirements.txt
+```
+
+4. Set up environment variables:
+
+```bash
+# Windows Command Prompt
 set AZURE_KEY="your-azure-api-key"
 set AZURE_ENDPOINT="your-azure-endpoint"
 ```
